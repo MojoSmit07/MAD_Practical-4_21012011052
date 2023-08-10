@@ -81,7 +81,7 @@
                 app:layout_constraintTop_toBottomOf="@+id/editTextTextEmailAddress" />
 
             <Button
-                android:id="@+id/LoginToSignUp"
+                android:id="@+id/button"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="50dp"
@@ -99,11 +99,11 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="56dp"
         android:text="Don't have an account?"
-        app:layout_constraintBaseline_toBaselineOf="@+id/button2"
+        app:layout_constraintBaseline_toBaselineOf="@+id/LoginToSignUp"
         app:layout_constraintStart_toStartOf="parent" />
 
     <Button
-        android:id="@+id/button2"
+        android:id="@+id/LoginToSignUp"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:background="#00ffffff"
