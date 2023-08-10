@@ -19,6 +19,7 @@ class MainActivity : AppCompatActivity() {
         button2.setOnClickListener {
             SignUp()
         }
+
     }
 
     fun Login() {
@@ -30,7 +31,15 @@ class MainActivity : AppCompatActivity() {
         Intent(this@MainActivity, RegistrationActivity::class.java).also {
             startActivity(it) }
     }
+    fun Login3() {
+        Intent(this@MainActivity, RegistrationActivity::class.java).also {
+            startActivity(it) }
+    }
+    fun Login4() {
+        Intent(this@MainActivity, LoginActivity::class.java).also {
+            startActivity(it) }
 
+    }
 
 }
 
